@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: "jdbc:sqlserver://localhost:1433;databaseName=SWP391_PROJECT_GROUP4_SE1809;encrypt=true;trustServerCertificate=true;"
+    username: sa
+    password: An0354768872
+  application:
+    name: bookstore
+  main:
+    banner-mode: off
+
+server:
+  port: 6789
+
+logging:
+  level:
+    root: warn
